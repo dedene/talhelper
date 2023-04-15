@@ -1,0 +1,18 @@
+{
+    "version": "1.6.4-scoop",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dedene/talhelper/releases/download/v1.6.4-scoop/talhelper_windows_amd64.tar.gz",
+            "bin": [
+                "talhelper.exe"
+            ],
+            "hash": "13584d3fd56b2ddd8af75403e612f2314708135f31e2c241b39197fd8655cd98"
+        }
+    },
+    "homepage": "https://github.com/budimanjojo/talhelper",
+    "license": "BSD-3",
+    "description": "A tool to help creating Talos kubernetes cluster ",
+    "depends": [
+        "sops"
+    ]
+}
